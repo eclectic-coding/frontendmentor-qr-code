@@ -31,6 +31,7 @@
 
     h2 {
       color: var(--text-header);
+      text-align: center;
       font-size: 1.375rem;
       font-style: normal;
       font-weight: 700;
