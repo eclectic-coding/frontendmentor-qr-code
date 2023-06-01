@@ -1,0 +1,38 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+
+  --background-main-card: var(--color-white);
+  --background-qr-card: var(--color-dark-blue);
+  --background-main: var(--color-light-grey);
+  --text-header: var(--color-dark-blue);
+  --text-body: var(--color-grayish-blue);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  justify-items: center;
+  align-items: center;
+
+  min-height: 100vh;
+  color: var(--text-body);
+  background: var(--background-main);
+  line-height: 1.25;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1875px
+}
